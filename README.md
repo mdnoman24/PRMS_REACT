@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# Patient Record Management System (PRMS) - React Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🏥 Patient Record Management System
 
-## Available Scripts
+### 🌟 Overview
+A comprehensive web application designed to streamline patient record management for healthcare professionals, providing an intuitive and efficient way to handle patient information, medical visits, prescriptions, and reports.
 
-In the project directory, you can run:
+## 🚀 Key Features
 
-### `npm start`
+### 1. Authentication System
+- Secure user login mechanism
+- JWT-based authentication
+- Protected routes preventing unauthorized access
+- Persistent login state using localStorage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. Patient Management
+#### Comprehensive Patient Tracking
+- Add new patient records
+- Edit existing patient information
+- Delete patient profiles
+- Detailed patient view with multiple information tabs
+- Quick search and filter capabilities
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Patient Details Include:
+- Personal Information
+- Contact Details
+- Age
+- Unique Patient ID
 
-### `npm test`
+### 3. Visits Management
+- Record and track patient visits
+- Add new visit entries
+- View visit history
+- Detailed visit information tracking
+- Doctor-specific visit logs
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Visit Details:
+- Visit Date
+- Diagnosis
+- Attending Doctor
+- Comprehensive visit notes
 
-### `npm run build`
+### 4. Prescription Management
+- Create new prescriptions
+- View prescription history
+- Detailed prescription tracking
+- Associate prescriptions with specific visits
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Prescription Information:
+- Drug Name
+- Dosage
+- Duration
+- Prescribing Doctor
+- Prescription Date
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 5. Medical Reports
+- Generate and store medical reports
+- Multiple report type support
+- Easy report creation interface
+- Comprehensive report tracking
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Report Types:
+- Lab Test
+- Radiology
+- Blood Work
+- Physical Examination
+- Custom report types
 
-### `npm run eject`
+### 6. User Interface
+- Responsive design
+- Bootstrap-powered modern UI
+- Intuitive navigation
+- Card-based information display
+- Modal-based forms for data entry
+- Error handling and validation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 7. Dashboard
+- Quick access to key sections
+- Overview of patients, visits, prescriptions, and reports
+- Navigation shortcuts
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 Technical Architecture
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Frontend Technologies
+- React.js
+- React Router
+- React Bootstrap
+- Fetch API for HTTP requests
+- JWT Authentication
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### State Management
+- React Hooks (useState, useEffect)
+- Context API for global state management
+- Local storage for persistent authentication
 
-## Learn More
+### Security Features
+- Token-based authentication
+- Protected routes
+- Secure API communication
+- Client-side input validation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 Installation and Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
+- Node.js (v14 or later)
+- npm or yarn
+- Backend API running
 
-### Code Splitting
+### Step-by-Step Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone the Repository
+```bash
+git clone https://github.com/MdNoman1538/PRMS_Client.git
+cd PRMS_Client
+npm start
